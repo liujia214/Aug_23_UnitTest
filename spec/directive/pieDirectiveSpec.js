@@ -17,6 +17,7 @@ describe('testing directive',function(){
         var element = $compile('<my-pie></my-pie>')($rootScope);
         console.log(element);
         expect(element[0].innerHTML).toEqual('Delicious Pie');
+        expect(element.html()).toEqual('Delicious Pie');
     });
 
 });
