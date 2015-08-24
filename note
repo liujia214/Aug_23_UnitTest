@@ -1,0 +1,13 @@
+npm install --save-dev karma
+npm install --save-dev karma-jasmine
+npm install --save-dev karma-chrome-launcher
+
+
+npm install bower -g
+bower install angular
+bower install angular-mocks
+bower install angular-resource
+
+
+npm install mocha --save-dev
+npm install should --save-dev

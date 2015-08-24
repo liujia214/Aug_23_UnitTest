@@ -1,0 +1,22 @@
+{
+  "name": "temp-karma-testing",
+  "version": "0.0.0",
+  "homepage": "https://github.com/liujia214/Aug_16_b28a941e-fd66-4c7d-879b-bd776640f667",
+  "authors": [
+    "Amy <amyjialiu2015@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-mocks": "~1.4.4",
+    "angular-resource": "~1.4.4",
+    "jquery": "~2.1.4"
+  }
+}
