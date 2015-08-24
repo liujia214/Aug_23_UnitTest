@@ -2,7 +2,7 @@
  * Created by allenbklj on 8/20/15.
  */
 describe('dessert manager',function(){
-   var myValue,serManager, mockWindow,pieSvc;;
+   var myValue,serManager, mockWindow,pieSvc;
 
     beforeEach(function(){
         module('pieApp');
@@ -14,9 +14,6 @@ describe('dessert manager',function(){
         });
 
     });
-    beforeEach(function(){
-
-    })
 
     it('testing for initialization',function(){
         expect(myValue.pies).toEqual([
