@@ -2,7 +2,7 @@
  * Created by allenbklj on 8/20/15.
  */
 describe('testing pie filter',function(){
-   var filter,dessert,manager;
+   var filter,dessert;
     beforeEach(function(){
         module('pieApp');
         inject(function(_DessertValue_){
